@@ -40,7 +40,6 @@
             if (timers[timerId] <= 0) {
                 const timerElement = document.getElementById(`timer-${timerId}`);
                 timerElement.innerHTML = "Time's up!";
-                playAlertSound();
                 return;
             }
 
